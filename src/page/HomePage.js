@@ -1,7 +1,7 @@
-import React from 'react'
-import Header from '../components/header/Header'
-import Layout from '../components/layout/Layout'
-import WelcomeApp from '../components/WelcomeApp'
+import React from 'react';
+import Layout from '../components/layout/Layout';
+import WelcomeApp from '../components/WelcomeApp';
+import { TextContent1 } from './../components/TextContent1';
 
 const HomePage = () => {
   return (
@@ -9,10 +9,8 @@ const HomePage = () => {
 
        <Layout>
 
-       
-       <WelcomeApp/>
-
-
+       <WelcomeApp/>       
+       <TextContent1/>
 
 
        </Layout>

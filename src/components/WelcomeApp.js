@@ -3,9 +3,7 @@ import React from "react";
 const WelcomeApp = () => {
   return (
     <div className="flex bg-gray-900 px-3 md:px-20 py-20 flex-col md:flex-row">
-
-
-      <div className="w-full md:w-2/5  flex flex-col gap-1 items-start justify-center">
+      <div className="w-full md:w-2/5 flex flex-col gap-1 items-start justify-center">
         <h1 className="text-[#81849a]">A HUMAN-CENTRIC MOBILE EXPERIENCE</h1>
 
         <h1 className="text-[35px] md:text-[50px] font-bold text-white">
@@ -16,7 +14,7 @@ const WelcomeApp = () => {
           your friends to become better, together. All in just one app.
         </p>
 
-        <div className="flex py-6">
+        <div className="flex flex-row justify-evenly">
           <img
             className="h-12"
             src="https://assets.x-wrist.com/google-play-button.png"
@@ -31,7 +29,7 @@ const WelcomeApp = () => {
 
       <div className="w-full md:w-3/5 flex justify-center my-11">
         <iframe
-        className="w-full  h-[260px] md:h-[360px]"
+        className="w-full aspect-video"
           src="https://www.youtube.com/embed/FOFxqEOSD-Q"
           title="YouTube video player"
           frameborder="0"
