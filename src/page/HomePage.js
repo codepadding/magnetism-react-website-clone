@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/header/Header'
 import Layout from '../components/layout/Layout'
+import WelcomeApp from '../components/WelcomeApp'
 
 const HomePage = () => {
   return (
@@ -8,7 +9,11 @@ const HomePage = () => {
 
        <Layout>
 
-        {/* <h1>Home Page</h1> */}
+       
+       <WelcomeApp/>
+
+
+
 
        </Layout>
 
