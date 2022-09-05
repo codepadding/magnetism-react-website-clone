@@ -1,7 +1,7 @@
 import React from "react";
 const Header = (props) => {
   return (
-    <div className="bg-[#012222] h-20 px-36 flex justify-between">
+    <div className="bg-gray-900  h-20 px-36 flex justify-between">
       <div className="flex items-center">
         <img
           className="h-16"
