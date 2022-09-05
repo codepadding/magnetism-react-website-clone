@@ -73,14 +73,28 @@ const HealthScreen = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    setInterval(() => {
-      if (activeIndex >= list.length) {
+
+    const timer = setInterval(() => {
+      
+      if (activeIndex === list.length) {
         setActiveIndex(0);
       } else {
-        setActiveIndex((value) => value + 1);
+        setActiveIndex((value) => {
 
+          console.log(list.length," - ",value)
+
+          if(value === list.length - 1){
+            return 0
+          }
+
+          return value + 1
+
+        });
       }
     }, 1000);
+
+   
+    return () => clearInterval(timer);
 
   }, []);
 
@@ -88,7 +102,7 @@ const HealthScreen = () => {
     <div className="bg-gray-900 w-full">
       <div className="container mx-auto px-16 bg-gray-900">
         <div>
-          <h1 className="text-6xl font-bold text-teal-400">HEALTH</h1>
+          <h1 className="text-6xl font-bold text-teal-400">HEALTH - {activeIndex}</h1>
           <p className="mt-2 text-lg text-white font-bold">
             HEALTH: MONITOR, DIAGNOSE & CONSULT
           </p>
