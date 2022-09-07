@@ -5,8 +5,14 @@ import WelcomeApp from '../components/WelcomeApp'
 import LifeStyle from '../components/LifeStyle'
 import HealthScreen from '../components/HealthScreen'
 import Rewards from '../components/Rewards'
+import { listHealth,listFitness } from '../data/data'
 
 const HomePage = () => {
+
+
+
+
+
   return (
     <div>
 
@@ -14,8 +20,9 @@ const HomePage = () => {
 
         <WelcomeApp />
         <LifeStyle />
-        <HealthScreen />
+        <HealthScreen list={listHealth}/>
         <Rewards />
+        <HealthScreen list={listFitness}/>
 
 
 
