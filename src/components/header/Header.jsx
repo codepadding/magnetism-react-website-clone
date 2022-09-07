@@ -1,29 +1,29 @@
 import React from "react";
 const Header = (props) => {
   return (
-    <div className="bg-gray-900  h-20 px-36 flex justify-between">
-      <div className="flex items-center">
-        <img
-          className="h-16"
-          src="https://www.x-wrist.com/_next/image?url=https%3A%2F%2Fassets.x-wrist.com%2Flogo.png&w=96&q=75"
-        />
-      </div>
-
-      <div>
-        <div className="h-full text-white flex items-center list-none px-4 gap-2">
-          <div>
-            <p className="bg-white px-3 py-1 text-blue-500 rounded-md cursor-pointer hover:bg-blue-600 hover:text-white">
-              Product
-            </p>
+    <div className="bg-neutral-50">
+      <div className="md:container md:mx:auto lg:px-28 md:px-4">
+        <div className="h-20 flex justify-between ">
+          <div className="flex items-center">
+            <img
+              className="h-16"
+              src="img/logos/logo.png"
+            />
           </div>
-          <li className="hover:text-blue-400 cursor-pointer">Medical Tests</li>
-          <li>Mobile App</li>
-          <li>About</li>
-          <li>Contact</li>
-          <div>
-            <p className="py-1 px-3 text-white border border-blue-500 rounded-lg cursor-pointer">
-              Business Solutions
-            </p>
+
+          <div >
+            <div className="list-none w-full color[#282b2d] font-bold text-sm flex items-center gap-3 uppercase">
+              <div >
+                <p className="bg-sky-500 hover:bg-[#fbd3be] px-4 py-1 text-white hover:text-sky-500 rounded-full cursor-pointer hover:bg-[ #19b0db] text-white">Products</p>
+              </div>
+              {/* <li className="py-10 cursor-pointer hover:text-[#d04563]">Medical Tests</li> */}
+              <li className="py-10 cursor-pointer hover:text-[#d04563]">Mobile App</li>
+              <li className="py-10 cursor-pointer hover:text-[#d04563]">About</li>
+              <li className="py-10 cursor-pointer hover:text-[#d04563]">Contact</li>
+              <div>
+                <p className="px-4 py-1 rounded-full cursor-pointer border-2 border-sky-500">Business Solutions</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
