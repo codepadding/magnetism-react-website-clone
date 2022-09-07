@@ -33,9 +33,8 @@ const WelcomeApp = () => {
                     className="w-full  h-[240px] md:h-[300px]"
                     src="https://www.youtube.com/embed/FOFxqEOSD-Q"
                     title="YouTube video player"
-                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+
                     ></iframe>
                 </div>
             </div>

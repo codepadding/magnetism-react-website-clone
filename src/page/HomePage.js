@@ -22,7 +22,7 @@ const HomePage = () => {
         <LifeStyle />
         <HealthScreen list={listHealth}/>
         <Rewards />
-        <HealthScreen list={listFitness}/>
+        {/* <HealthScreen list={listFitness}/> */}
 
 
 
