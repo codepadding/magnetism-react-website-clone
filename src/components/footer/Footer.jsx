@@ -11,7 +11,7 @@ const footer = () => {
       </div>
       <div className="flex items-center">
         <div className="list-none w-50% md:w-full color[#282b2d] font-medium text-lg flex items-center gap-3">
-            <li className="py-10 cursor-pointer hover:text-[#d04563]">Business Solutions</li>
+            <li className="cursor-pointer hover:text-[#d04563]">Business Solutions</li>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const LifeStyle = () => {
   const bgImage = {
-    backgroundImage: 'url("/img/bg/bg-red.png")',
+    backgroundImage: 'url("/img/bg/the-app-fitness-background.jpeg")',
   };
 
   return (

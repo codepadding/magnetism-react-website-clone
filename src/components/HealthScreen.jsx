@@ -41,7 +41,8 @@ const HealthScreen = ({list}) => {
     <div className="w-full" style={bgImage}>
       <div className="md:container md:mx-auto md:px-2 lg:px-20 py-12">
         <div>
-          <h1 className="text-[35px] md:text-[65px] font-bold text-[#08eea3]">HEALTH - {activeIndex}</h1>
+          <h1 className="text-[35px] md:text-[65px] font-bold text-[#08eea3]">HEALTH</h1>
+          {/* <h1 className="text-[35px] md:text-[65px] font-bold text-[#08eea3]">HEALTH - {activeIndex}</h1> */}
           <p className="text-white text-xl font-bold leading-normal pb-3 uppercase">
             Health: Monitor, Diagnose & Consult
           </p>

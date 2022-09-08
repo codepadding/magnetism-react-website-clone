@@ -27,7 +27,7 @@ const Rewards = () => {
     <div
       className=""
       style={{
-        backgroundImage: 'url("/img/bg/bg-red.png")',
+        backgroundImage: 'url("/img/bg/technology-background.webp")',
       }}
     >
       <div className="md:container md:mx-auto md:px-2 lg:px-20 py-12">

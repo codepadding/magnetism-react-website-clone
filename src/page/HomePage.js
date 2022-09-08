@@ -21,8 +21,8 @@ const HomePage = () => {
         <WelcomeApp />
         <LifeStyle />
         <HealthScreen list={listHealth}/>
-        <Rewards />
         <HealthScreen list={listFitness}/>
+        <Rewards />
 
 
 
