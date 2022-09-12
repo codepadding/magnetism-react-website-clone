@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const UserList = () => {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState([]);i
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
