@@ -53,7 +53,6 @@ const HealthScreen = ({ list }) => {
         return value + 1;
       });
     }, 2000);
-    // itemWrapper.current.removeEventListener("mouseover");
   };
 
 

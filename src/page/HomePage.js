@@ -16,17 +16,11 @@ const HomePage = () => {
   return (
     <div>
 
-      <Layout>
-
         <WelcomeApp />
         <LifeStyle />
         <HealthScreen list={listHealth}/>
         <Rewards />
         {/* <HealthScreen list={listFitness}/> */}
-
-
-
-      </Layout>
 
 
 
